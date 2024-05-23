@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla:EDPT,EHLT@0,0..24&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .first{
     background: black;
     height: 50px;
@@ -11,7 +14,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background: linear-gradient(to top left, rgba(34, 51, 126, 0), rgb(4, 34, 74));
+    background: linear-gradient(to top left,#EEF7FF, rgb(122, 178, 178));
 }
 
 .logos{
@@ -54,6 +57,9 @@ body{
     margin-right: auto;
     margin-top: 50px;
     border-radius:  45% 45% 0px 0px;
+    border-style:double;
+    border-width: 10px;
+    border-color: #4D869C;
 }
 .abc{
     height: 100%;
@@ -68,4 +74,49 @@ body{
     height: 100vh;
     width:100vw ;
     overflow: hidden;
+}
+.parent{
+    display:flex;
+    
+
+}
+
+.rightdiv{
+    float: right;
+    margin: auto;
+    
+
+}
+.aman{
+    color: #4D869C;
+    font-weight: 500;
+
+}
+
+.text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.innertext{
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.dbtn{
+    color:azure ;
+    border-radius: 7px;
+    background-color:#4D869C;
+    width: 300px;
+    height: 40px;
+    margin-left: 68%;
+    padding: 10px;
+    padding: 0px;
+    margin-right: 100%;
+}
+.button{
+    margin-right: 100%;
+    margin-top: 10%;
+    margin-left: 0px;
 }
