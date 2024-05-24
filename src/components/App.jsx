@@ -8,7 +8,8 @@ function App() {
   return (
     <div className="main">
 
-      < Content />
+      {/* < Content /> */}
+      <EmailForm />
 
     </div>
   );

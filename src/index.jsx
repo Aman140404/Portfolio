@@ -2,11 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
 
 ReactDOM.render(
     <>
         <Navbar />
-        <App />
+        {/* <App /> */}
+        <About />
+
     </>, document.getElementById("root"));
 
 // If you're running this locally in VS Code use the commands:
