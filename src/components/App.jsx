@@ -1,15 +1,14 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Image from "./Leftimg";
+import Navbar from "./Navbar";
+import Content from "./Leftimg";
 import Right from "./Rightcontent";
 import Dbtn from "./Dbtn";
-
+import EmailForm from "./Contacts";
 function App() {
   return (
     <div className="main">
-      < Navbar />
-      < Image />
-      {/* <Dbtn /> */}
+
+      < Content />
 
     </div>
   );

@@ -1,8 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
+import Navbar from "./components/Navbar";
 
-ReactDOM.render(<><App /></>, document.getElementById("root"));
+ReactDOM.render(
+    <>
+        <Navbar />
+        <App />
+    </>, document.getElementById("root"));
 
 // If you're running this locally in VS Code use the commands:
 // npm install

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Image() {
+function Content() {
     return (
         < div className="parent"  >
             <div className="abc">
@@ -8,7 +8,7 @@ function Image() {
             </div>
             <div className="rightdiv animate__bounce ">
                 <h1 className="text">
-                    Hi,I'm<br></br>
+                    👋Hi,I'm<br></br>
                     <c className="aman">Aman</c> Gupta<br></br>
                     a web developer<br></br>
                     from India...
@@ -29,4 +29,4 @@ function Image() {
     );
 }
 
-export default Image;
+export default Content;
