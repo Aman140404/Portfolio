@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nabla:EDPT,EHLT@0,0..24&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.first{
+    background: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 45%;
+    vertical-align: middle;
+    position:fixed;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to top left,#EEF7FF, rgb(122, 178, 178));
+}
+
+.logos{
+    height: 30px;
+    width: 30px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.second{
+    display: flex;
+    gap: 35%;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    align-content: flex-end;
+    justify-content: flex-start;
+    
+
+    
+}
+.tags{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    gap: 45%;
+}
+
+.abc img{
+    height: 550px;
+    width: 450px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius:  45% 45% 0px 0px;
+    border-style:double;
+    border-width: 10px;
+    border-color: #4D869C;
+}
+.abc{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    
+    padding:20px;
+    margin: 0px;
+}
+
+.main{
+    height: 100vh;
+    width:100vw ;
+    overflow: hidden;
+}
+.parent{
+    display:flex;
+    
+
+}
+
+.rightdiv{
+    float: right;
+    margin: auto;
+    
+
+}
+.aman{
+    color: #4D869C;
+    font-weight: 500;
+
+}
+
+.text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.innertext{
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.dbtn{
+    color:azure ;
+    border-radius: 7px;
+    background-color:#4D869C;
+    width: 300px;
+    height: 40px;
+    margin-left: 68%;
+    padding: 10px;
+    padding: 0px;
+    margin-right: 100%;
+}
+.button{
+    margin-right: 100%;
+    margin-top: 10%;
+    margin-left: 0px;
+}
+.contact{
+    height: 350px;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 30%;
+    
+   
+    
+}
+.contat{
+    height: 250px;
+    width: 350px;
+    border: #4D869C;
+    border-radius: 10px;
+    padding: 30px;
+    border-style: double solid;
+    border-width: 7px;;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    
+}
+  
+  .emailForm {
+    display: flex;
+    flex-direction: column;
+    
+  }
+.ibox{
+    opacity: 0.4;
+    background-color:#c2eeff;
+    border-radius: 5px;
+    width: 350px;
+    border: rgb(122, 178, 178) inset ;
+}
+  
+  input,
+  textarea {
+    margin: 10px 0px;
+  }
+  .conttext{
+    justify-content: center;
+    vertical-align: middle;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 0px ;
+    margin-left: 17%;
+    align-items: center;
+    padding-left:0px;
+    text-align:center;
+    margin-right: 0px;
+
+  }
+.msg{
+    color: #073f80;
+}
+.submitbtn{
+    height: 50px;
+    width: 350px;
+    padding:20px;
+    margin: auto;
+    margin-left: 17%;
+    border-radius: 10px;
+
+}
+
+.send{
+    width: 300px;
+    border-radius: 10px;
+    background-color: #073f80;
+    color: #EEF7FF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
