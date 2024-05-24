@@ -7,8 +7,7 @@ import About from "./components/About";
 ReactDOM.render(
     <>
         <Navbar />
-        {/* <App /> */}
-        <About />
+        <App />
 
     </>, document.getElementById("root"));
 
