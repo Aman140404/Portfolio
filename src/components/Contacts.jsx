@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
+import AnimatedPage from './Animate';
 
 const EmailForm = () => {
 
@@ -37,41 +38,43 @@ const EmailForm = () => {
     }
 
     return (
-        <div className=' contact'>
-            <div className='conttext'>
-                <h1 ><c className='msg' >🤙Contact</c> me<br></br>Send me a<c className='msg' > Message</c></h1>
+        <AnimatedPage>
+            <div className=' contact'>
+                <div className='conttext'>
+                    <h1 ><c className='msg' >🤙Contact</c> me<br></br>Send me a<c className='msg' > Message</c></h1>
+                </div>
+                <form onSubmit={handleSubmit} className='emailForm'>
+                    <div className=' contat'>
+                        <input
+                            className='ibox'
+                            type="text"
+                            placeholder="Your Name"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                        />
+                        <input
+                            className='ibox'
+                            type="email"
+                            placeholder="Your Email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                        />
+                        <textarea
+                            className='ibox'
+                            cols="30"
+                            placeholder='Enter your message'
+                            rows="10"
+                            value={message}
+                            onChange={(e) => setMessage(e.target.value)}
+                        >
+                        </textarea>
+                    </div>
+                    <div className='submitbtn'>
+                        <button className='send' type="submit">Send Mail</button>
+                    </div>
+                </form>
             </div>
-            <form onSubmit={handleSubmit} className='emailForm'>
-                <div className=' contat'>
-                    <input
-                        className='ibox'
-                        type="text"
-                        placeholder="Your Name"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                    />
-                    <input
-                        className='ibox'
-                        type="email"
-                        placeholder="Your Email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                    />
-                    <textarea
-                        className='ibox'
-                        cols="30"
-                        placeholder='Enter your message'
-                        rows="10"
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
-                    >
-                    </textarea>
-                </div>
-                <div className='submitbtn'>
-                    <button className='send' type="submit">Send Mail</button>
-                </div>
-            </form>
-        </div>
+        </AnimatedPage>
     )
 }
 

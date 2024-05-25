@@ -10,10 +10,11 @@ function Navbar() {
                 </a>
             </div>
             <div className="second">
-                <a className="tags" href="/" >Home</a>
-                <a className="tags" href="about" >About</a>
-                <a className="tags" target="_top" href="./resume.pdf" >Resume</a>
-                <a className="tags" href="contact" >Contact</a>
+                <a className="tags nav_link" href="/" >Home</a>
+                {/* <a className="tags" href="about" >About</a> */}
+                <a className="tags nav_link" href="about" > About</a>
+                <a className="tags nav_link" target="_top" href="./resume.pdf" >Resume</a>
+                <a className="tags nav_link" href="contact" >Contact</a>
                 <div className="third">
                     <a href="https://github.com/Aman140404">
                         <img draggable="false" className="logos" alt="github" src="git.png" />

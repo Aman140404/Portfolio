@@ -270,3 +270,14 @@ body{
     /* color: white; */
 
 }
+
+.nav_link{
+    position: relative;
+    transition: all 0.2s;
+}
+.nav_link:hover{
+    border-bottom: #073f80 2px solid;
+    border-radius: 2px;
+    transform: scaleX(1);
+
+}
