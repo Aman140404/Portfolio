@@ -6,7 +6,7 @@ function About() {
         <AnimatedPage>
             <div className='namemain'>
                 <div className='aboutimg'>
-                    <img draggable="false" className='cdn' src='./about.jpg' />
+                    <img draggable="false" className='cdn' src="Assets\about.jpg" />
                 </div>
                 <div className='abtcnt'>
                     <h1 className='t1'>Hey.what's up?Hola!....👋</h1>
