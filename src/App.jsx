@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Content from "./Content";
-import Right from "./Rightcontent";
-import Dbtn from "./Dbtn";
-import EmailForm from "./Contacts";
-import About from "./About";
-import Error from "./Error";
+import Navbar from "./components/Navbar";
+import Content from "./components/Content";
+import Right from "./components/Rightcontent";
+import Dbtn from "./components/Dbtn";
+import EmailForm from "./components/Contacts";
+import About from "./components/About";
+import Error from "./components/Error";
 
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 function App() {
