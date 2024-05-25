@@ -12,7 +12,7 @@ function Navbar() {
             <div className="second">
                 <a className="tags nav_link" href="/" >Home</a>
                 {/* <a className="tags" href="about" >About</a> */}
-                <a className="tags nav_link" href="about" > About</a>
+                <a className="tags nav_link" href="/about" > About</a>
                 <a className="tags nav_link" target="_top" href="./resume.pdf" >Resume</a>
                 <a className="tags nav_link" href="contact" >Contact</a>
                 <div className="third">
