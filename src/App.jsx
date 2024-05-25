@@ -14,6 +14,7 @@ function App() {
     <div className="main">
 
       <BrowserRouter>
+        < Navbar />
         <Routes>
           {/* <Route path="/" element={< Navbar />} /> */}
           <Route path="/" element={< Content />} />
